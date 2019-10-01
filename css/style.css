@@ -7283,7 +7283,7 @@ body {
     content: '';
     width: 400px;
     height: 600px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    /* border: 2px solid rgba(255, 255, 255, 0.05); */
     z-index: -1;
     -webkit-transform: rotate(-30deg);
     -moz-transform: rotate(-30deg);
@@ -7298,7 +7298,7 @@ body {
     content: '';
     width: 400px;
     height: 400px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    /* border: 2px solid rgba(255, 255, 255, 0.05); */
     z-index: -1;
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
