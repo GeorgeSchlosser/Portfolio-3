@@ -65,3 +65,7 @@
 .py-2 {
     background-color: white;
 }
+
+#github-graph {
+    overflow-x: auto;
+}
