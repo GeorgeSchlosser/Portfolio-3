@@ -8789,3 +8789,32 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* 
+GRAPH STYLING
+ */
+.statistics-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.statistics-section .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 25px;
+  border: solid 1px #fff;
+}
+
+.statistics-section h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+.statistics-section .counter {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
