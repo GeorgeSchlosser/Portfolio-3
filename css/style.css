@@ -62,7 +62,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8790,9 +8793,6 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-/* 
-GRAPH STYLING
- */
 .statistics-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -8817,4 +8817,11 @@ GRAPH STYLING
 .statistics-section .counter {
   font-weight: 300;
   font-size: 2.5rem;
+}
+
+/* STAR STYLING */
+.box {
+  background-color: #e7ddd1;
+  position: fixed;
+  border-radius: 50%
 }
